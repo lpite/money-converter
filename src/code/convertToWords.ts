@@ -108,7 +108,7 @@ export default function convertToWords(number: number) {
         returnedString.push(hz4[parseInt(slicedNumber.slice(1, 2))]);
       }
     }
-    returnedString.push(` тисяч ${returHundreds(slicedNumber.slice(2, 3))} `);
+    returnedString.push(` ${thousands[parseInt(slicedNumber.slice(1,2))]} ${returHundreds(slicedNumber.slice(2, 3))} `);
     if (checkIfnumberBetwen11and19(slicedNumber.slice(3, 5))) {
       returnedString.push(
         `${hz5[parseInt(slicedNumber.slice(4, 5))]} гривень `
