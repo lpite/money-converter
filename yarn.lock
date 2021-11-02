@@ -9326,6 +9326,11 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
+simple-to-words@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/simple-to-words/-/simple-to-words-0.0.1.tgz#0fc20bfa3165b061b444c26f0f0e60905758a840"
+  integrity sha512-BYrT8vaiuEWbw2yrIf+/jhzGpQ2uumQ7fO9YSkOmup2b12MH27LF5ZAovuWOU/Lxvve8Kt4gr0I1IXJCh5NUOQ==
+
 sirv-cli@1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/sirv-cli/-/sirv-cli-1.0.3.tgz#33789a8f9d6dcee2aca2e35c3c97051b462ca00f"

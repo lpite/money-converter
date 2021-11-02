@@ -1,11 +1,10 @@
 import { h } from "preact";
 import style from "./style.css";
 import { useState } from "preact/hooks";
-import convertToWords from "../../code/convertToWords";
+import convertToWords from "simple-to-words";
 export default function Home(params) {
   const [text, setText] = useState("");
   function onChangeInput(e) {
-    console.log(234);
     setText(convertToWords(e.target.value));
   }
   return (
